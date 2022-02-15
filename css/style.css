@@ -8,12 +8,6 @@ body{
     background-color: #a8d5e5;
 }
 
-li a {
-    display: block;
-    color: #bee0ec;
-    text-align: center;
-    padding: 3px 12px;
-}
 
 .meny{
     float: row;
@@ -23,10 +17,3 @@ li a {
     margin-right: 41%;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #51abcb;
-}
