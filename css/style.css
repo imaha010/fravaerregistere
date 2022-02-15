@@ -5,7 +5,7 @@ moren din
 */
 
 body{
-    background-color: #a8d5e5;
+    background-color: #004d69;
 }
 
 ul {
@@ -16,10 +16,6 @@ ul {
     background-color: rgb(241, 242, 190); 
   }
 
-  li{
-      float: left;
-  }
-
 
   li a {
     display: block;
@@ -27,7 +23,9 @@ ul {
     text-align: center;
     padding: 3px 12px; 
     text-decoration: none;
+    float: left;
   }
+
 .meny{
     float: row;
     text-decoration: none;
