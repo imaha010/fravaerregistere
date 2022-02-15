@@ -8,6 +8,12 @@ body{
     background-color: #004d69;
 }
 
+.menu_background{
+  background-color:#51abcb;
+  color:white;
+  padding:20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
