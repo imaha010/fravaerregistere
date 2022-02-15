@@ -7,7 +7,7 @@ moren din
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: #004d69;
+    color: #03045e;
 }
 
 
@@ -31,7 +31,7 @@ ul {
 
   li a {
     display: block;
-    background-color:#004d69 ;
+    background-color: #023e8a;
     color: white;  
     margin-left: 10px;
     margin-right: 10px;
@@ -43,15 +43,8 @@ ul {
     float: left;
   }
 
-  li:hover{
-    background-color: #004d6985;
+  li :hover{
+    background-color:#ffb703;
   }
 
-.meny{
-    float: row;
-    text-decoration: none;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-}
 
