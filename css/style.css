@@ -10,7 +10,18 @@ body{
     color: #03045e;
 }
 
+.maintable{
+margin-top: 40px;
+}
 
+table{
+  border: 1px solid black;
+}
+
+th{
+  border: 1px solid black;
+  margin: 0px;
+}
 
 .menu_background{
   background-color:#51abcb;
