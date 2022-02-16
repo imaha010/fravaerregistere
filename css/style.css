@@ -58,4 +58,11 @@ ul {
     background-color:#ffb703;
   }
 
+  Timeplan{
+    display: float;
+    float: left;
+    padding: 100px;
+    margin: 200px;
+   
+  }
 
