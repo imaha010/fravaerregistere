@@ -9,7 +9,7 @@ $klasse = $_POST['klasse'];
 
   //Opprette kobling
   $kobling = new mysqli('localhost', 'root', '', 'fravaerregister');
-		
+		                                                                                          
   //Sjekk om kobling virker
   if($kobling->connect_error) {
 	  die("Noe gikk galt: " . $kobling->connect_error);
