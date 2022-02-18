@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>fravaerregristering</title>
 </head>
 <body>
@@ -22,6 +22,7 @@
 <br>
 <div style="background-color:rgb(209, 237, 255);padding:20px;">
 <div>
+
     <table class="maintable">
         <tr>
             <th>Elev</th>
@@ -35,24 +36,27 @@
             <th>15:15</th>
             <th>Klassen</th>
         </tr>
-        <tr>
-            <th rowspan="5" id="iman">
-                <img class="tableicon" src="/bilder/min.jpg" alt="min profilbildet">
-                <p>Iman Ahmad</p>
-            </th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Tilstedet</th>
-            <th>Hjemme</th>
-        </tr>
-        <tr>
-            <th>U</th>
-            <th>U</th>
+        <form method="post" action="frconnect.php">
+            <tr>
+                <th rowspan="5" id="iman">
+                    <img class="tableicon" src="../bilder/min.jpg" alt="min profilbildet">
+                    <p>Iman Ahmad</p>
+                </th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Tilstedet</th>
+                <th id="tilstedet"> <input type="checkbox">Hjemme</th>
+            </tr>
+        </form>
+        <form method="post" action="frconnect.php">
+          <tr>
+            <th> <input type="checkbox">U</th>
+            <th> <input type="checkbox">U</th>
             <th>U</th>
             <th>U</th>
             <th>U</th>
@@ -60,8 +64,10 @@
             <th>U</th>
             <th>U</th>
             <th>2IMA</th>
-        </tr>
-        <tr>
+        </tr>  
+        </form>
+        <form method="post" action="frconnect.php">
+         <tr>
             <th>L</th>
             <th>L</th>
             <th>L</th>
@@ -71,7 +77,9 @@
             <th>L</th>
             <th>L</th>
             <th>2IMB</th>
-        </tr>
+        </tr> 
+        </form>
+
         <tr>
             <th id="Dcolor">D</th>
             <th id="Dcolor">D</th>
@@ -112,7 +120,7 @@
             </tr>
             <tr>
                 <th rowspan="5" id="Jonas">
-                    <img class="tableicon" src="/bilder/profilepicturev2 (7).jfif" alt="min profilbildet">
+                    <img class="tableicon" src="../bilder/profilepicturev2 (7).jfif" alt="min profilbildet">
                     <p>Jonas Hanafy</p>
                 </th>
                 <th>Tilstedet</th>
@@ -188,7 +196,7 @@
             </tr>
             <tr>
                 <th rowspan="5" id="Simen">
-                    <img class="tableicon" src="/bilder/profilepicturev2 (4).jfif" alt="min profilbildet">
+                    <img class="tableicon" src="../bilder/profilepicturev2 (4).jfif" alt="min profilbildet">
                     <p>Simen Skjærvold</p>
                 </th>
                 <th>Tilstedet</th>
@@ -264,7 +272,7 @@
             </tr>
             <tr>
                 <th rowspan="5" id="Edgar">
-                    <img class="tableicon" src="/bilder/profilepicturev2 (3).jfif" alt="min profilbildet">
+                    <img class="tableicon" src="../bilder/profilepicturev2 (3).jfif" alt="min profilbildet">
                     <p>Edgar Oomen</p>
                 </th>
                 <th>Tilstedet</th>
@@ -338,7 +346,7 @@
             </tr>
         <tr>
             <th rowspan="5" id="MJ">
-                <img class="tableicon" src="/bilder/profilepicturev2 (6).jfif" alt="min profilbildet">
+                <img class="tableicon" src="../bilder/profilepicturev2 (6).jfif" alt="min profilbildet">
                 <p>MJ Ticar</p>
             </th>
             <th>Tilstedet</th>
@@ -411,7 +419,7 @@
         </tr>
     <tr>
         <th rowspan="5" id="Kristoffer">
-            <img class="tableicon" src="/bilder/profilepicturev2 (15).jfif" alt="min profilbildet">
+            <img class="tableicon" src="../bilder/profilepicturev2 (15).jfif" alt="min profilbildet">
             <p>Kristoffer Bang</p>
         </th>
         <th>Tilstedet</th>
@@ -484,7 +492,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="Eirik">
-        <img class="tableicon" src="/bilder/profilepicturev2 (5).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (5).jfif" alt="min profilbildet">
         <p>Eirik Eide</p>
     </th>
     <th>Tilstedet</th>
@@ -557,7 +565,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="">
-        <img class="tableicon" src="/bilder/profilepicturev2 (1).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (1).jfif" alt="min profilbildet">
         <p></p>
     </th>
     <th>Tilstedet</th>
@@ -630,7 +638,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="">
-        <img class="tableicon" src="/bilder/profilepicturev2 (10).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (10).jfif" alt="min profilbildet">
         <p></p>
     </th>
     <th>Tilstedet</th>
@@ -703,7 +711,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="">
-        <img class="tableicon" src="/bilder/profilepicturev2 (11).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (11).jfif" alt="min profilbildet">
         <p></p>
     </th>
     <th>Tilstedet</th>
@@ -776,7 +784,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="">
-        <img class="tableicon" src="/bilder/profilepicturev2 (2).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (2).jfif" alt="min profilbildet">
         <p></p>
     </th>
     <th>Tilstedet</th>
@@ -849,7 +857,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="">
-        <img class="tableicon" src="/bilder/profilepicturev2 (9).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (9).jfif" alt="min profilbildet">
         <p></p>
     </th>
     <th>Tilstedet</th>
@@ -922,7 +930,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="">
-        <img class="tableicon" src="/bilder/profilepicturev2 (8).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (8).jfif" alt="min profilbildet">
         <p></p>
     </th>
     <th>Tilstedet</th>
@@ -995,7 +1003,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="Herman">
-        <img class="tableicon" src="/bilder/profilepicturev2 (13).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (13).jfif" alt="min profilbildet">
         <p>Herman Hateberg</p>
     </th>
     <th>Tilstedet</th>
@@ -1067,7 +1075,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="Ari">
-        <img class="tableicon" src="/bilder/profilepicturev2.jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2.jfif" alt="min profilbildet">
         <p>Ari Shokooh</p>
     </th>
     <th>Tilstedet</th>
@@ -1140,7 +1148,7 @@
     </tr>
 <tr>
     <th rowspan="5" id="Mohamed">
-        <img class="tableicon" src="/bilder/profilepicturev2 (14).jfif" alt="min profilbildet">
+        <img class="tableicon" src="../bilder/profilepicturev2 (14).jfif" alt="min profilbildet">
         <p>Mohamed Kalil</p>
     </th>
     <th>Tilstedet</th>
@@ -1209,6 +1217,20 @@
     -->
 </div>
 </div>
+
+<script>
+    
+    var dcolor= document.getElementById("Dcolor")
+
+    dcolor.onclick = function(){changeColor()};
+
+    function changeColor(e, el){
+        el.currentTarget.style.backgroundColor ='red';
+
+    };
+
+
+</script>
 
 </body>
 </html>
