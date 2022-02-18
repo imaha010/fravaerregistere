@@ -1,7 +1,10 @@
 <?php
 
-$bruker = $_POST['user'];
-$pass = $_POST['password'];
+$elev = $_POST['iman'];
+$tilstedet = $_POST['tilstedet'];
+$fratype = $_POST['u'];
+$klasse = $_POST['klasse'];
+
 
 
   //Opprette kobling
@@ -16,7 +19,7 @@ $pass = $_POST['password'];
 	  //Angi UTF-8 som tegnsett
 	  $kobling->set_charset("utf8");	
   
-	  $sql = "INSERT INTO inho (bruker, pass) VALUES ('$bruker', '$pass')";
+	  $sql = "INSERT INTO fraregister (Elev, Tilstedet, fratype, klassen) VALUES ('$elev', '$tilstedet', '$fratype' '$klasse')";
   
 	  if($kobling->query($sql)) {
 		  echo "Spørringen $sql ble gjennomført. ";
